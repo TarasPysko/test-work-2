@@ -1,8 +1,8 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 import { DropDown } from "./component/dropDown";
-import { FileTile } from "./component/file";
+import { FileTile } from "./component/fileTile";
 
 const App = () => {
   const [files, setFiles] = useState([]);
